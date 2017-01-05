@@ -1,6 +1,7 @@
 body {
   background-color: #F6F6F6;
   color: black;
+  font-family: Helvetica Neue, Helvetica, Arimo, Liberation Sans, Lucida Grande, sans-serif;
 }
 
 #super {
@@ -109,7 +110,7 @@ body {
 
 #picture-right {
   vertical-align: middle;
-  
+
 }
 .panel-picture {
   border-color: #ebccd1;
@@ -131,3 +132,8 @@ body {
 }
 
 /*end Picture CSS --------------------------------*/
+
+h2.bottom-headings {
+  border-bottom: 1px solid black;
+  font-family: Times, Georgia, Linux Libertine, Cambria, serif;
+}
