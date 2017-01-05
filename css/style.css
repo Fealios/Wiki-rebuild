@@ -1,6 +1,7 @@
 #super {
   border: solid green;
   margin-left: 160px;
+  height: 100%;
 }
 
 .container {
@@ -33,6 +34,9 @@
 #welcome {
   font-size: 13px;
   width: 100%;
+  background-color: #F9F9F9;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
 }
 
 #welcome-left {
@@ -52,10 +56,34 @@
 /*end Welcome CSS----------------------------*/
 
 /*Featured CSS----------------------------*/
-#featured {
+#featured-left {
+  background-color: #F5FFFA;
+  height: inherit;
+  border: solid 1px #CEF2E0;
 }
 
-.featured {
+#featured-left .panel-body {
+  background-color: #F5FFFA;
 }
 
+#featured-right {
+  background-color: #F5FAFF;
+  height: inherit;
+  border: solid 1px #CEDFF2;
+}
+
+#featured-right .panel-body {
+  background-color: #F5FAFF;
+}
+
+.panel{
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
+}
+
+.panel-heading {
+  border-radius 0px;
+}
 /*end Featured CSS----------------------------*/
