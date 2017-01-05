@@ -5,9 +5,8 @@ body {
 }
 
 #super {
-  border: solid green;
-  margin-left: 165px;
-
+  /*border: solid green;*/
+  margin-left: 160px;
 }
 
 .container {
@@ -20,9 +19,15 @@ body {
 .sidebar {
   position: absolute;
   float: left;
-  border: solid;
+  /*border: solid;*/
   width: 160px;
   /*height: 100%;*/
+
+}
+
+.sidebar ul {
+  padding-left: 30px;
+  list-style-type: none;
 }
 
 .side-list {
