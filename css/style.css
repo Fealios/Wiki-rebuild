@@ -32,7 +32,6 @@
 /*Welcome CSS -------------------------------*/
 #welcome {
   font-size: 13px;
-  border: solid pink;
   width: 100%;
 }
 
@@ -45,17 +44,18 @@
   margin-top: 20px;
   font-size: 16px;
 }
-/*end Welcome CSS----------------------------*/
 
 .inline-list {
   float: right;
   width: 33%;
 }
+/*end Welcome CSS----------------------------*/
 
+/*Featured CSS----------------------------*/
 #featured {
-  border: solid purple;
 }
 
 .featured {
-  border: solid;
 }
+
+/*end Featured CSS----------------------------*/
