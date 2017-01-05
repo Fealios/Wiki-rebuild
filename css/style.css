@@ -1,14 +1,19 @@
+body {
+  background-color: #F6F6F6;
+  color: black;
+}
+
 #super {
-  border: solid green;
+  /*border: solid green;*/
   margin-left: 160px;
   height: 100%;
 }
 
 .container {
-  border: solid;
-  border-color: blue;
+  border: solid 1px #A7D7F9;
   width: 100%;
   padding: 20px;
+  background-color: #fff;
 }
 
 .sidebar {
@@ -84,6 +89,45 @@
 }
 
 .panel-heading {
-  border-radius 0px;
+  border-radius: 0px;
+  border: 1px solid #A3BFB1;
 }
 /*end Featured CSS----------------------------*/
+/*Picture CSS --------------------------------*/
+
+#picture {
+  background-color: #FAF5FF;
+}
+
+#picture .panel-body {
+  background-color: #FAF5FF;
+}
+
+#redhawk-cheese {
+  width: 100%;
+}
+
+#picture-right {
+  vertical-align: middle;
+  
+}
+.panel-picture {
+  border-color: #ebccd1;
+}
+.panel-picture > .panel-heading {
+  color: #a94442;
+  background-color: #DDCEF2;
+  border-color: #ebccd1;
+}
+.panel-picture > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #DDCEF2;
+}
+.panel-picture > .panel-heading .badge {
+  color: #DDCEF2;
+  background-color: #a94442;
+}
+.panel-picture > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #DDCEF2;
+}
+
+/*end Picture CSS --------------------------------*/
