@@ -3,6 +3,12 @@
   margin-left: 160px;
 }
 
+.container {
+  border: solid;
+  border-color: blue;
+  width: 100%;
+}
+
 .sidebar {
   float: left;
   border: solid;
@@ -19,12 +25,5 @@
 }
 
 #wiki-logo {
-  width: 100%;
-}
-
-.container {
-  border: solid;
-  border-color: blue;
-  float: right;
   width: 100%;
 }
