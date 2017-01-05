@@ -29,24 +29,33 @@
   width: 100%;
 }
 
+/*Welcome CSS -------------------------------*/
 #welcome {
   font-size: 13px;
+  border: solid pink;
+  width: 100%;
 }
 
 #welcome-left {
-  float: left;
   text-align: center;
-  width: 35%;
+  padding-right: 250px;
 }
 
 #welcome-right {
-  float: right;
-  height: 50%;
   margin-top: 20px;
   font-size: 16px;
 }
+/*end Welcome CSS----------------------------*/
 
 .inline-list {
   float: right;
   width: 33%;
+}
+
+#featured {
+  border: solid purple;
+}
+
+.featured {
+  border: solid;
 }
