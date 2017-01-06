@@ -16,22 +16,23 @@ body {
   background-color: #fff;
 }
 
+/*Sidebar CSS --------------------------*/
 .sidebar {
   position: absolute;
   float: left;
   /*border: solid;*/
   width: 160px;
   /*height: 100%;*/
-
 }
 
 .sidebar ul {
   padding-left: 30px;
   list-style-type: none;
+  list-style: none;
 }
 
 .side-list {
-  list-style: none;
+  border-bottom: 1px solid grey;
 }
 
 .header {
@@ -42,7 +43,10 @@ body {
 
 #wiki-logo {
   width: 100%;
+  margin-bottom: 20px;
 }
+
+/*end Sidebar CSS ----------------------------*/
 
 /*Welcome CSS -------------------------------*/
 #welcome {
@@ -144,4 +148,9 @@ body {
 h2.bottom-headings {
   border-bottom: 1px solid black;
   font-family: Times, Georgia, Linux Libertine, Cambria, serif;
+}
+
+.sister-logo{
+  float: left;
+  margin: 10px 25px 10px 10px;
 }
