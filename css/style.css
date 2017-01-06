@@ -79,6 +79,7 @@ body {
   background-color: #F5FFFA;
   height: inherit;
   border: solid 1px #CEF2E0;
+  height: 100%;
 }
 
 #featured-left .panel-body {
