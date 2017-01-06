@@ -7,6 +7,7 @@ body {
 #super {
   /*border: solid green;*/
   margin-left: 160px;
+  margin-top: 10px;
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
 }
 
 .header {
-  border: solid;
+  /*border: solid;*/
   border-color: red;
   height: 100px;
 }
